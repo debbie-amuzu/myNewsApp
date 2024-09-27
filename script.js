@@ -5,7 +5,7 @@ const topStories = document.getElementById('top-stories-items');
 
 
 async function fetchTopStories() {
-    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=15764d7cf997401d9804da2d00712a8f&pageSize=6');
+    const response = await fetch('https://newsapi.org/v2/top-headlines?country=us&apiKey=15764d7cf997401d9804da2d00712a8f&pageSize=9');
     const data = await response.json();
     displayNews(data.articles, topStories);
 }
