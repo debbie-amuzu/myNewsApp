@@ -55,7 +55,7 @@ body {
 }
 
 .hero {
-    background-color: ;
+
     color: rgb(9, 9, 9);
     text-align: center;
     padding: 50px 20px;
@@ -71,7 +71,7 @@ body {
     letter-spacing: 2px;
 }
 
-.search-news {
+#search-news {
     display: flex;
     margin-bottom: 15px;
     border: solid;
@@ -80,7 +80,7 @@ body {
 
 }
 
-.input-box {
+#input-box {
     flex-grow: 1;
     padding: 10px;
     font-size: 16px;
@@ -88,7 +88,7 @@ body {
     border-color: #c57a69;
 }
 
-.btn {
+#btn {
     padding: 10px 20px;
     font-size: 16px;
     background-color: #d56767;
@@ -103,6 +103,7 @@ body {
 .stories-section {
     padding: 40px 20px;
     background-color: white;
+
 }
 
 .stories-section h2 {
@@ -143,13 +144,12 @@ body {
 }
 
 .borders p:hover {
-    color: #c24f5b;
+    color: #e36672;
 }
 
 
 .footer {
-    padding-top: 10px;
-    background-image: url(./image/bg2.png);
+    padding-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,6 +161,7 @@ body {
     color: transparent;
   }
  
+  
   
   .contact-details {
     display: flex;
